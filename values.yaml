@@ -1,0 +1,8 @@
+image:
+  repository: rebuild8789/apps-bg
+  tag: v3
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
